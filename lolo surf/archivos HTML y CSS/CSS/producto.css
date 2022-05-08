@@ -4,6 +4,7 @@ body{
     overflow-y: scroll;
     font-weight: lighter;
 }
+
 .navbar-toggler{
     margin-right: 10px;
 }
@@ -22,7 +23,7 @@ body{
         margin-right: 5px;
     }
     .navbar{
-        width: 100%;
+        width: 100vw;
     }
     h1{ 
         font-size: 20px;
@@ -49,6 +50,27 @@ body{
     text-transform: uppercase;
     margin-left: 2px;
 }
+
+#seleccion{
+    justify-content: center ;
+    display: flex;
+    flex: row;
+    margin: 5px;
+    justify-content: center;
+    
+}
+#seleccionTipo{
+    border: 1px soli white;
+    background: none;
+    color: white;
+    cursor:pointer;
+}
+.value{
+    background-color: rgb(1, 4, 5);
+    color: white;
+    cursor:pointer;
+}
+
 #contenedor-productos{
     margin-top: 25px;
     display: flex;
@@ -106,23 +128,21 @@ img:hover{
     transition: 0.5s;
     overflow: auto;
 }
-
-#seleccion{
-    justify-content: center ;
-    display: flex;
-    flex: row;
-    margin: 5px;
-    justify-content: center;
-    
-}
-#seleccionTipo{
-    border: 1px soli white;
-    background: none;
+.card a{
     color: white;
 }
-.value{
-    background-color: rgb(1, 4, 5);
-    color: white;
+.btnAgregar{
+    color: rgb(1, 4, 5);
+    margin-left: 8px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.btnAgregar:hover{
+    font-size: 20px;
+    color: lightblue;
+    transition: 0.5s;
+    font-weight: lighter;
+    text-decoration: none;
 }
 
 .modal-contenedor{
@@ -151,29 +171,35 @@ img:hover{
     border: 2px solid white;
     border-radius: 10px;
 }
-#carritoCerrar{
+#carritoCerrar, #terminar{
     min-width: 50px;
     height: 50px;
     background-color: #010405;
-    margin: 5px;
+    padding: 5px;
     color: white;
     border-color: white;
+    border: 1px solid white;
+    text-align: center;
 }
+#carritoCerrar:hover{
+    color: white;
+    transition: 0.4s;
+    border: 1px solid  white;
+    transform: scale(0.9);
+    background-color: red;
+}
+#terminar:hover{
+    color: white;
+    transition: 0.4s;
+    border: 1px solid white;
+    transform: scale(1.1);
+    background-color: green;
 
-.btnAgregar{
-    color: lightblue;
-}
-.btnAgregar:hover{
-    font-size: 20px;
-    color: lightblue;
-    transition: 0.5s;
-    font-weight: lighter;
-    text-decoration: none;
 }
 
 .productoEnCarrito{
     width: 90%;
-    min-height: auto;
+    height: auto;
     display: flex;
     flex: row;
     align-items: center;
@@ -190,7 +216,7 @@ img:hover{
     font-weight: bold;
 }
 .btnEliminar:hover{
-    border-color: #ff0000;
+    border-color: white;
     background-color: red;
     width: 25px;
     height: 25px;
@@ -198,7 +224,13 @@ img:hover{
     transition: 0.4s;
     color: white;
 }
-
+.linea{
+    background-color: white;
+    height: 1px;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }
 @media (min-width: 470px){
 h1{
@@ -220,9 +252,10 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url(https://cdn.pixabay.com/photo/2022/04/15/07/58/sunset-7133867_960_720.jpg);
+    background-image: url(../../img/playa\ blanoc\ y\ negro.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    
 }
 .producto{
     width: 200px;
@@ -235,18 +268,21 @@ h1{
 }
 .card {
     width: 300px;
-    height: 450px;
+    height: 440px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    background-color: rgb(1, 4, 5, 0.8);
+    background-color: rgb(1, 4, 5, 0.6);
     color: white;
+    border: 2px solid rgb(1, 4, 5, 0.3);
 }
 .card:hover{
     overflow-y: hidden;
-    height: 450px;
+    height: 440px;
+    overflow: hidden;
     transform: scale(1.1);
     transition: 0.5s;
     border: 2px solid white;
@@ -301,7 +337,7 @@ img:hover{
     border: 2px solid white;
     border-radius: 10px;
 }
-#carritoCerrar{
+#carritoCerrar, #terminar{
     min-width: 50px;
     height: 50px;
     background-color: #010405;
@@ -312,13 +348,6 @@ img:hover{
 
 .btnAgregar{
     color: lightblue;
-}
-.btnAgregar:hover{
-    font-size: 20px;
-    color: lightblue;
-    transition: 0.5s;
-    font-weight: lighter;
-    text-decoration: none;
 }
 
 .productoEnCarrito{
@@ -338,18 +367,9 @@ img:hover{
     font-size: 10px;
     font-weight: bold;
 }
-.btnEliminar:hover{
-    border-color: #ff0000;
-    background-color: red;
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
-    transition: 0.4s;
-    color: white;
-}
+
 }
 /*-----footer------------------*/
-
 footer{
     background-color: rgb(1, 4, 5, 0.15);
     color: cornsilk;

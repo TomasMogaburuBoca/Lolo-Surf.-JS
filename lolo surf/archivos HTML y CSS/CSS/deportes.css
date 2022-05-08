@@ -50,7 +50,7 @@ h3{
         padding: 10px;
         gap: 10px;
         justify-content: space-around;
-        background-image: url(../img/playa.jpg);
+        background-image: url(../../img/playa.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -98,7 +98,7 @@ h3{
         padding: 10px;
         gap: 10px;
         justify-content: space-around;
-        background-image: url(../img/skateboard2.jpg);
+        background-image: url(../../img/skateboard2.jpg);
         background-position: center;
         background-size: cover;
         position:static
@@ -114,6 +114,13 @@ h3{
         height: 200px;
     }
     /*------------SURSKATE------------------*/
+    .linea{
+        background-color: white;
+        height: 1px;
+        width: 100vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     /*------------footer------------------*/
     footer{
         background-color: rgb(1, 4, 5, 0.15);

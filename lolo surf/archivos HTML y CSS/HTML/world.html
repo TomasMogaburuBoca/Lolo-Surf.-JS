@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="producto.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="icon" href="../img/cacatua icon.png">
+    <title>World Life</title>
 </head>
 <body>
     <!--barra de navegacion- inicio -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="../index.html">lolo <span>surf</span></a>
+        <a class="navbar-brand" href="../../index.html">lolo <span>surf</span></a>
     <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -23,10 +23,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">home</a>
+                    <a class="nav-link" href="../../index.html">home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./nosotros.html">nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./producto.html">productos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./deportes.html">deportes</a>
@@ -37,42 +40,43 @@
             </ul>
         </div>
     </nav>
-    <h1>productos </h1>
-        <input type="text" id="search" class="input" placeholder="Busca tu producto">
-        <button id="btn-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">carrito</span></button>
-
-        <div id="seleccion">
-            <select id="seleccionTipo">
-                <option class="value" value="todos">todos</option>
-                <option class="value" value="surf">surf</option>
-                <option class="value" value="surfskate">surfskate</option>
-                <option class="value" value="remeras">remeras</option>
-            </select>
+    <!--barra de navegacion- fin -->
+    <!--seccion donde hablo del mar y del verde---- inicio -->
+    <h2 class="world"><span> world life</span></h2>
+    <section class="sea-green">
+        <div class="sea">
+            <h3>Sea World</h3>
+            <p class="p1">Desde Lolo Surf buscamos que haya una vida saludable dentro del mar y por eso decidimos poner marcha y empezar a movernos para una vida mejor dentro y fuera del agua, pudiendo disfrutar de ella gozando esa fuerza que nos transmite para surfear y pudiendo valorar la vida que hay dentro de ella.</p>
         </div>
-        <div id="contenedor-productos">
-            <h2>tablas</h2>
-            <!--<div id="surf">
-            </div>-->
-            <h2>surfskate</h2>
-            <!--<div id="surfskate"> 
-            </div>-->
-            <h2>remeras</h2>
-            <!--<div id="remeras">
-            </div>-->
+        <div class="green">
+            <h3>Green World</h3>
+            <p class="p1">Creemos que hay que reconocer todo lo que la tierra nos dá, así que decidimos arrancar un nuevo camino apuntando hacia el cuidado del medio ambiente.</p>
         </div>
-<!--carrito-->
-    <div class="modal-contenedor">
-        <div class="modal-carrito">
-            <h3>Carrito</h3>
-            <div id="carrito-contendor">
-            </div>
-            <p class="precioProducto">Precio Total: $ <span id="precioTotal"></span></p>
-            <button id="carritoCerrar"><i class="fas fa-times-circle"></i>Cerrar</button>
-            <div id="terminar"></div>
+    </section> 
+    <section class="worldlife">
+        <div class="div-worldlife">
+            <h4>Nuestro Poryecto</h4>
+            <p> En World Life buscamos que desde el comienzo de una vida mas sustentable y sana fuera del agua, el mundo azul se transformaria cada vez mas en un paraiso.</p>
         </div>
-    </div>
-    <!-----FOOTER------>
-    <hr>
+        <div class="div1"><!--foto en el CSS--></div>
+        <div class="div2"><!--foto en el CSS--></div>
+        <div class="div3">
+            <H4>Concientizacion</H4>
+            <p>Primero de todo comenzando por limpiar todo lo que este a nuestro alcance y concientizando sobre las complicaciones que estan puedan ocasionar.</p>
+        </div>
+        <div class="div4">
+            <h4>Respeto</h4>
+            <p>Saber que vivimos en un mundo donde es habitado por seres vivos y respetar el espacio de cada uno, haciendo un mundo mejor y agradable.</p>
+        </div>
+        <div class="div5"><!--foto en el CSS--></div>
+        <div class="div6">
+            <p>Este es un trabajo que tenemos que hacer entre todos, nos gustaria que nos acompañes en este viaje hacia un mundo mejor, esto es World Life desde Lolo Surf.</p>
+            <p>Aqui te dejamos nuestro -<a href="./contacto.html">Newsletter</a>- para que te registres y comiences con esta aventura.</p>
+        </div>
+    </section>
+    <!--Fin Main-->
+    <div class="linea"></div>
+    <!--Footer-->
     <footer>
         <div class="footer-1">
             <ul>
@@ -84,18 +88,9 @@
         <div><p>© (Copyright symbol). Terminos y condiciones</p></div>
         <div><p>By<span class="tomas">Tomas Mogaburu Boca</span></p></div>
     </footer>
-<!-----FOOTER-----fin---->
-    <!--barra de navegacion- fin -->
+    <!--seccion donde hablo del mar y del verde---- inicio -->   
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    <!--<script src="../../archivos JS/productos.js"></script>
-    <script src="../../archivos JS/const.js"></script>
-    <script src="../../archivos JS/apps.js"></script>-->
-    <script src="/archivos JS/Carrito/stock.js"></script>
-    <script src="/archivos JS/Carrito/modal.js"></script>
-    <script src="/archivos JS/Carrito/app.js"></script>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>

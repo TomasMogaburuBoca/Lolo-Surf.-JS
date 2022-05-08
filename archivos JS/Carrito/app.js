@@ -87,7 +87,7 @@ function mostrarProducto(array){
 //Agregamos producto cliqueando al carrito
 function agregarAlCarrito(id){
     let yaEsta = carritoDeCompras.find((item) => item.id == id)
-    console.log(yaEsta);
+    
     if (yaEsta){
         yaEsta.cantidad = yaEsta.cantidad + 1;
         document.getElementById(`und${yaEsta.id}`).innerHTML = `<p id=und${yaEsta.id}>Und: ${yaEsta.cantidad}</p>`;
@@ -138,7 +138,7 @@ function mostrarCarrito(productoAgregar){
                 className: "info",
                 position: 'center',
                 style: {
-                    background: "linear-gradient(to right, #e91414, #ff0000)",
+                    background: "linear-gradient(to right, #010405, #ff0000)",
                 }
             }).showToast();
 
