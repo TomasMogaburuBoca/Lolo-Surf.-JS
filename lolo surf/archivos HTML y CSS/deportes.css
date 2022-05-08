@@ -1,0 +1,172 @@
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgb(1, 4, 5);
+    color: cornsilk;
+    font-weight: lighter;
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+.collapse{
+    text-transform: capitalize;
+}
+
+
+h3{
+    color: cornsilk;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(1, 4, 5, 0.10);
+    font-weight: lighter;
+}
+.vermas{
+    text-transform: capitalize;
+    background-color: rgb(1, 4, 5, 0.10);
+    text-decoration: none;
+    color: rgb(1, 4, 5);
+    padding: 5px;
+    }
+    .vermas:hover{
+        color: cornsilk;
+        border: none;
+        background-color: rgb(1, 4, 5, 0.20);
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+@media (min-width:220px){
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    .surf, .surfskate{
+        width: 100%;
+    }
+    /*--------SURF---------------*/
+    .surf{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+        justify-content: space-around;
+        background-image: url(../img/playa.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .surf iframe{
+        width: 200px;
+        height: 200px;
+    }
+    .lele-usuna{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .lele-usuna img{
+        width: 210px;
+        height: 200px;
+    }
+    h4{
+        padding:10px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .lele-usuna p{
+        width: 500px;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+        margin-top: 5px;
+        color: cornsilk;
+    }
+    /*--------SURF---------------*/
+    /*--------SURFSKATE------------*/
+    .surfskate{
+    /* background-image: url(../img/skateboard2.jpg);
+        height: 800px;
+        background-position: center;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+        justify-content: space-around;*/
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+        justify-content: space-around;
+        background-image: url(../img/skateboard2.jpg);
+        background-position: center;
+        background-size: cover;
+        position:static
+    }
+    .surfskate p, .surf p{
+        padding: 10px;
+        text-align: center;
+        color: cornsilk;
+        background-color: rgb(1, 4, 5, 0.30);
+    }
+    .surfskate iframe{
+        width: 200px;
+        height: 200px;
+    }
+    /*------------SURSKATE------------------*/
+    /*------------footer------------------*/
+    footer{
+        background-color: rgb(1, 4, 5, 0.15);
+        color: cornsilk;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+    footer ul{
+        list-style-type: none;
+    }
+    footer a{
+        text-decoration: none;
+        color: cornsilk;
+        padding: 5px;
+        font-weight: lighter;
+    }
+    .footer-1{
+        align-items: center;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+        font-weight: lighter;
+    }
+    footer p{
+        display: flex;
+        flex: column;
+        padding: 2px;
+        align-items: center;
+        font-size: 10px;
+    }
+    .tomas{
+        margin-left: 5px;
+    }
+    .tomas:hover{
+        color: lightblue;
+        font-size: 16px;
+        transition: 0.5s;
+    }
+}    
+    @media (min-width: 500px){
+    .surf iframe{
+        width: 400px;
+        height: 400px;
+    }
+        .lele-usuna img{
+        width: 400px;
+        height: 300px;
+    }
+    .surfskate iframe{
+        width: 400px;
+            height: 400px;
+    }
+}

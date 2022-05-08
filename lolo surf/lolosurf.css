@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(1, 4, 5);
+    overflow: hidden;
+    overflow-y: scroll;
+    font-weight: lighter;
+}
+
+.icono{
+    color: lightblue;
+}
+.icono:hover{
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 220px){
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    .navbar{
+        width: 100vw;
+    }
+    .navbar-brand{
+        text-transform: uppercase;
+    }
+    .collapse{
+        text-transform: capitalize;
+    }
+    .jumbotron{
+        background-image: url(./img/van.png);
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        color: cornsilk;
+        border-radius: 0;
+        margin: 0;
+        width: 100vw;
+    }
+    .jumbotron h1{
+        color: rgb(1, 4, 5);
+        text-transform: capitalize;
+        text-shadow: 1px 3px lightblue;
+        font-weight: lighter;
+    }
+    .jumbotron p{
+        font-size: 20px;
+        color: rgb(1, 4, 5);
+        text-transform: lowercase;
+        text-shadow: 1px 1px cornsilk;
+        font-weight: lighter;
+    }
+    .btn{
+        text-transform: capitalize;
+        background-color: rgb(1, 4, 5);
+        color: cornsilk;
+        border-color: lightblue;
+    }
+    .btn:hover{
+        background-color: cornsilk;
+        color: rgb(1, 4, 5);
+        border-color: lightblue;
+        transition: 0.6s;
+    }
+    .btn a{
+        color: cornsilk;
+        text-decoration: none;
+    }
+    .btn a:hover{
+        color: rgb(1, 4, 5);
+    }
+    .sea-green{
+        border: 1px solid cornsilk;
+        background-color: rgb(1, 4, 5, 0.15);
+        font-weight: lighter;
+    }
+    .sea-green:hover{
+        color: cornsilk;
+        border: none;
+        background-color: rgb(1, 4, 5, 0.20);
+        
+    }
+/*-----comienza el main con las fotos descriptivas-- inicio---*/
+    .main{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .div1{
+        background-color: rgb(1, 4, 5);
+        /*width: 100%;
+        height: 300px;*/
+        width: 80%;
+        background-image: url(./img/surfing2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .div2{
+        background-color: rgb(1, 4, 5);
+        /*width: 100%;
+        height: 300px;*/
+        width: 80%;
+        background-image: url(./img/skateboard.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .div p{
+        text-decoration: none;
+        width: 100%;
+        margin-top: 40%;
+        background-color: rgb(255, 248, 219, 0.25);
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: rgb(1, 4, 5);
+        text-transform: uppercase;
+    }
+    p a{
+        color: cornsilk;
+        text-decoration: none;
+    }
+    p a:hover{
+        color: rgb(1, 4, 5);
+        text-shadow: 1px 1px 1px cornsilk;
+        transition: 0.4s;
+        text-decoration: none;
+    }
+    .div p:hover{
+        background-color: rgb(255, 248, 219, 0.70);
+        transition: 0.5s;
+    }
+    /*-----termina la seccion de los deporte----*/
+    /*-------seccion sea mood------*/
+    .sea{
+        overflow: hidden;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; 
+    }
+    .sea div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/sea.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .sea p{
+        /*background-color: rgb(0, 0, 0, 0.05);*/
+        color: cornsilk;
+        width: 70%;
+        height: auto;
+    }
+    .sea a{
+        text-decoration: none;
+        color: cornsilk;
+    }
+    .sea a:hover{
+        font-weight: lighter;
+    }
+    /*-------seccion sea mood------*/
+    /*-----seccion green mood-----*/
+    .green{
+        overflow: hidden;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .green div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/green\ .jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .green p{
+        /* background-color: rgb(0, 0, 0, 0.05);*/
+        color: white;
+        width: 70%;
+        height: auto;
+    }
+    .green div:hover, .sea div:hover{
+        transform: scale(1.1);
+        transition: 1s;
+        font-weight: lighter;
+        background-color: rgb(0, 0, 0, 0.15);
+    }
+    /*-----seccion green mood-----*/
+    /*-----footer------------------*/
+    footer{
+        background-color: rgb(1, 4, 5, 0.15);
+        color: cornsilk;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+    footer ul{
+        list-style-type: none;
+    }
+    footer a{
+        text-decoration: none;
+        color: cornsilk;
+        padding: 5px;
+        font-weight: lighter;
+    }
+    .footer-1{
+        align-items: center;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+        font-weight: lighter;
+    }
+    footer p{
+        display: flex;
+        flex: column;
+        padding: 2px;
+        align-items: center;
+        font-size: 10px;
+    }
+    .tomas{
+        margin-left: 5px;
+    }
+    .tomas:hover{
+        color: lightblue;
+        font-size: 16px;
+        transition: 0.5s;
+    }
+}
+/*----- fin  footer------------------*/
+@media (min-width: 670px){
+    .jumbotron{
+        background-position: center;
+        height: 600px;
+    }
+    .jumbotron h1{
+        font-size: 60px;
+    }
+    .jumbotron p{
+        font-size: 30px;
+        text-shadow: 1px 2px lightblue;
+    }
+    .div1, .div2{
+        width: 500px;
+        height: 400px;
+    }
+    /* footer, footer p{
+        font-size: 15px;
+    }*/
+}
+/*-----comienza el main con las fotos descriptivas-- fin---*/
