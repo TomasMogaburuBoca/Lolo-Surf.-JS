@@ -40,10 +40,11 @@ contadorCarrito.addEventListener('click', () =>{
 mostrarProducto(stockProductos);
 
 //Logica e-commerce
-function mostrarProducto(array){
+function mostrarProducto(array){ 
     contenedorProductos.innerHTML = '';
 
     array.forEach((item) =>{
+        
         let div = document.createElement("div")
         div.classList.add("producto")
         div.innerHTML += `

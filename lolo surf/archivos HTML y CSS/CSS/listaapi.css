@@ -1,0 +1,11 @@
+#lista{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+}
+
+.div{
+    display: flex;
+    flex: column;
+    justify-content: space-around;
+}

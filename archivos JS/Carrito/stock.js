@@ -32,7 +32,7 @@ const Remeras = [
     {id:17, name: 'Red Waves', price:35, tipo: 'remera', img:''},
 ]
 console.log(Remeras);*/
-
+/*
 const stockProductos = [
     {id: 1, name: 'Blue Tiger', price: 120, tipo: 'surf', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU'},
     {id: 2, name: 'Retrofish', price: 180, tipo: 'surf', img: 'https://www.surfmarket.org/images/stories/virtuemart/product/PLEZPHEZ-almond.jpg'},
@@ -52,4 +52,4 @@ const stockProductos = [
     {id:16, name: 'Cornsilk Waves', price:58, tipo: 'remeras', img:'https://underwavebrand.com/wp-content/uploads/2022/03/DSC02516-500x750.jpg'},
     {id:17, name: 'Red Waves', price:35, tipo: 'remeras', img:'https://underwavebrand.com/wp-content/uploads/2022/03/IMG_0098-500x750.jpg'},
 ]
-console.log(stockProductos);
+console.log(stockProductos);*/
