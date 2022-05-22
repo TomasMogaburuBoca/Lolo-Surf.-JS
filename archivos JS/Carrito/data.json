@@ -1,0 +1,21 @@
+/*[
+    {"id": "1", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "2", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "3", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "4", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "5", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "6", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "7", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "8", "name": "Blue Tiger", "price": "120", "tipo": "surf", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByTrtAbQU99Og8rJI5vn1niR1YApa2vYOq1WSmRuAKB_uO7AQwPSl3puTDgfUcGlcdSk&usqp=CAU"},
+    {"id": "9", "name": "Blue Tiger", "price": "120", "tipo": "surfskate", "img": "https://cdn11.bigcommerce.com/s-icfw6t6sn3/images/stencil/1280x1280/products/599/3404/CarverKaiDragonCX__63356.1640719251.jpg?c=1"},
+    {"id": "10", "name": "Blue Tiger", "price": "120", "tipo": "surfskate", "img": "https://cdn11.bigcommerce.com/s-icfw6t6sn3/images/stencil/1280x1280/products/599/3404/CarverKaiDragonCX__63356.1640719251.jpg?c=1"},
+    {"id": "11", "name": "Blue Tiger", "price": "120", "tipo": "surfskate", "img": "https://cdn11.bigcommerce.com/s-icfw6t6sn3/images/stencil/1280x1280/products/599/3404/CarverKaiDragonCX__63356.1640719251.jpg?c=1"},
+    {"id": "12", "name": "Blue Tiger", "price": "120", "tipo": "surfskate", "img": "https://cdn11.bigcommerce.com/s-icfw6t6sn3/images/stencil/1280x1280/products/599/3404/CarverKaiDragonCX__63356.1640719251.jpg?c=1"},
+    {"id": "13", "name": "Blue Tiger", "price": "120", "tipo": "surfskate", "img": "https://cdn11.bigcommerce.com/s-icfw6t6sn3/images/stencil/1280x1280/products/599/3404/CarverKaiDragonCX__63356.1640719251.jpg?c=1"},
+    {"id": "14", "name": "Blue Tiger", "price": "120", "tipo": "surfskate", "img": "https://cdn11.bigcommerce.com/s-icfw6t6sn3/images/stencil/1280x1280/products/599/3404/CarverKaiDragonCX__63356.1640719251.jpg?c=1"},
+    {"id": "15", "name": "Blue Tiger", "price": "120", "tipo": "remeras", "img": "https://underwavebrand.com/wp-content/uploads/2022/04/DSC03827-710x1078.jpg"},
+    {"id": "16", "name": "Blue Tiger", "price": "120", "tipo": "remeras", "img": "https://underwavebrand.com/wp-content/uploads/2022/04/DSC03827-710x1078.jpg"},
+    {"id": "17", "name": "Blue Tiger", "price": "120", "tipo": "remeras", "img": "https://underwavebrand.com/wp-content/uploads/2022/04/DSC03827-710x1078.jpg"},
+    {"id": "18", "name": "Blue Tiger", "price": "120", "tipo": "remeras", "img": "https://underwavebrand.com/wp-content/uploads/2022/04/DSC03827-710x1078.jpg"},
+    {"id": "19", "name": "Blue Tiger", "price": "120", "tipo": "remeras", "img": "https://underwavebrand.com/wp-content/uploads/2022/04/DSC03827-710x1078.jpg"}
+]*/

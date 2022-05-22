@@ -12,6 +12,9 @@ const precioTotal = document.getElementById('precioTotal')
 const seleccionTipo = document.getElementById('seleccionTipo')
 const buscador = document.getElementById('search')
 
+//stockProductos = (JSON.stringify('http://127.0.0.1:5500/archivos%20JS/Carrito/data.json'));
+//mostrarProducto(stockProductos);
+
 //Filtro por tipo de producto
 seleccionTipo.addEventListener('change', () => {
     if (seleccionTipo.value == "todos"){
@@ -37,18 +40,24 @@ contadorCarrito.addEventListener('click', () =>{
 })
 
 //Muestro los productos
+
+//stockProductos = (JSON.stringify('http://127.0.0.1:5500/archivos%20JS/Carrito/data.json'));  
+//console.log(stockProductos);
 mostrarProducto(stockProductos);
+
 
 //Logica e-commerce
 function mostrarProducto(array){ 
     contenedorProductos.innerHTML = '';
-
-    array.forEach((item) =>{
-        
-        let div = document.createElement("div")
-        div.classList.add("producto")
-        div.innerHTML += `
-            <div class= "card">
+    /* fetch('http://127.0.0.1:5500/archivos%20JS/Carrito/data.json')
+        .then(resp => resp.json())
+        .then(array => {
+            item = ``
+            array.forEach (item => {
+                let div = document.createElement("div")
+                div.classList.add("producto")
+                div.innerHTML +=`
+                <div class= "card">
                 <div class = "card-img">
                     <img src=${item.img}>
                     <span class= "card-title">${item.name}</span>
@@ -61,6 +70,29 @@ function mostrarProducto(array){
                 </div>
             </div>
         `;
+                
+           // })
+       // })
+        
+    //*/
+    array.forEach((item) =>{
+        
+    let div = document.createElement("div")
+    div.classList.add("producto")
+    div.innerHTML += `
+        <div class= "card">
+            <div class = "card-img">
+                <img src=${item.img}>
+                <span class= "card-title">${item.name}</span>
+                <a  id="agregar${item.id}" class="btnAgregar">Agregar</i></a>
+            </div>
+            <div class="card-content">
+                
+                <p>Tipo: ${item.tipo}</p>
+                <p>$${item.price}</p>
+            </div>
+        </div>
+    `;
         contenedorProductos.appendChild(div);
         
         let btnAgregar = document.getElementById(`agregar${item.id}`)
@@ -103,7 +135,7 @@ function agregarAlCarrito(id){
             }).showToast();
         }, 500);
     } else {
-        let productoAgregar = stockProductos.find((elemento) => elemento.id == id);
+        let productoAgregar = stockProductos.find((item) => item.id == id);             
         productoAgregar.cantidad = 1;
         carritoDeCompras.push(productoAgregar);
         actualizarCarrito();
@@ -122,7 +154,6 @@ function mostrarCarrito(productoAgregar){
         <button id="eliminar${productoAgregar.id}" class="boton-eliminar"><i class="fas fa-trash-alt"></i>X</button>
         `;
     contenedorModal.appendChild(div);
-
 
     let btnEliminar = document.getElementById(`eliminar${productoAgregar.id}`);
     btnEliminar.classList.add("btnEliminar");
